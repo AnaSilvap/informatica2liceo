@@ -1,0 +1,24 @@
+.navegacion li{
+    display: inline;
+    width: 100px;
+    padding: 10px;
+    border:solid rgb(255, 255, 255) 2px;
+    color: rgb(194, 166, 153);
+}
+body{color: rgb(194, 166, 153);
+    display: grid;
+    grid-template-columns: 45% 45% 45%;
+    grid-template-rows: auto auto;
+    grid-template-areas: "navegacion navegacion navegacion"
+    ". contenido .";
+    background-image: url(https://fondosmil.com/fondo/32052.jpg);
+    background-size: cover;
+    background-repeat: no-repeat,no-repeat;
+    font-size: 30px;
+    font-family: "Georgia";
+    padding: top 10px;
+    margin-right:40px;
+    border-style: "dotted","dashed","solid";}
+.navegacion{
+    grid-area: navegacion;}
+
