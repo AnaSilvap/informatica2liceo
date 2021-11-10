@@ -1,0 +1,6 @@
+var numero1 = prompt("escriba un numero")
+var numero2 = prompt("escribe un numero")
+console.log("Si restas los dos numeros da:"+(numero1-numero2))
+console.log("Si sumas los dos numeros da:"+(numero1 + numero2))
+console.log("Si divides los dos numeros da:"+(numero1/numero2))
+console.log("Si multiplicas los dos numeros da:"+(numero1*numero2))
